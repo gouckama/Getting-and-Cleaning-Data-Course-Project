@@ -26,7 +26,7 @@ The original source data was spread across several files.  This data needed to b
 
 - README.md:
 This file.
-- ProjectCode.R:
+- run_analysis.R:
 Constitutes the R code executed to accomplish the requirements of the project.
 - ProjectData.txt
 The final output data file as per project requirements.
@@ -39,7 +39,7 @@ A file detailing the fields found in the ProjectData.txt data file.
 - Mean columns have "mean()" in the column name.
 - Standard deviation columns have "std()" in the column name.
 - Other columns may have "mean" or "std" in their names; however, these other fields were not included as these columns had additional manipulations and hence I felt were not "**only**" the mean and standard deviations as required by the project.
-2.  If an attempt is made to execute the R code found in ProjectCode.R I have chosen certain paths to place my data.  These paths may need to be altered on your part accordingly.
+2.  If an attempt is made to execute the R code found in run_analysis.R I have chosen certain paths to place my data.  These paths may need to be altered on your part accordingly.
 3.  The original data describes the individuals in the study as "volunteers"; hence, in the final output data set (ProjectData.txt) I have used the column name "Volunteer". ***See the ProjectDataCodebook.txt file for details of all fields found in ProjectData.txt.***
 4.  The volunteers had to accomplish various activities like walking or standing.  In the final output data set (ProjectData.txt) I have used the column name "Activity" accordingly.  ***See the ProjectDataCodebook.txt file for details of all fields found in ProjectData.txt.***
 5.  All other field names were maintained from the original source data files to the final output file (ProjectData.txt).  I could have attempted to make them more "friendly"; however, I feel that would have added unnessary complication to the grading of my project as now extra mapping efforts would be required by my peers.  ***See the ProjectDataCodebook.txt file for details of all fields found in ProjectData.txt.***
