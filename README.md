@@ -3,7 +3,7 @@
 
 # Introduction
 
-The files included constitute the output files as required for the Getting and Cleanding Data Course Project as conduction by Coursera.com.
+The files included constitute the output files as required for the Getting and Cleanding Data Course Project as conducted by Coursera.com.
 
 It is assumed the that individuals viewing these documents are peers in the course or some other authorized Coursera individual with access to the course project details.
 
@@ -36,9 +36,11 @@ A file detailing the fields found in the ProjectData.txt data file.
 # Assumptions
 
 1.  The class project requires an extraction of "only the measurements of the mean and standard deviation for each measurement" columns from the original data sets.  As per the codebook used in the project data set (features_info.txt found in the project source files) it is understood that:
+
 - Mean columns have "mean()" in the column name.
 - Standard deviation columns have "std()" in the column name.
 - Other columns may have "mean" or "std" in their names; however, these other fields were not included as these columns had additional manipulations and hence I felt were not "**only**" the mean and standard deviations as required by the project.
+
 2.  If an attempt is made to execute the R code found in run_analysis.R I have chosen certain paths to place my data.  These paths may need to be altered on your part accordingly.
 3.  The original data describes the individuals in the study as "volunteers"; hence, in the final output data set (ProjectData.txt) I have used the column name "Volunteer". ***See the ProjectDataCodebook.txt file for details of all fields found in ProjectData.txt.***
 4.  The volunteers had to accomplish various activities like walking or standing.  In the final output data set (ProjectData.txt) I have used the column name "Activity" accordingly.  ***See the ProjectDataCodebook.txt file for details of all fields found in ProjectData.txt.***
